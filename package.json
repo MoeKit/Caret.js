@@ -23,5 +23,9 @@
     "position"
   ],
   "author": "Harold.luo <chord.luo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "spm": {
+    "main": "./src/jquery.caret.js",
+    "buildArgs": "--ignore jquery"
+  }
 }

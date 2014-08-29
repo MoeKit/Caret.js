@@ -17,7 +17,7 @@
 
 (function() {
   (function(factory) {
-    if (typeof define === 'function' && define.amd) {
+    if (typeof define === 'function') {
       return define(['jquery'], factory);
     } else {
       return factory(window.jQuery);
